@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="eid-ul-fitor.PNG" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Eid mobarak</title>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <div class="logo">
+                <h2><span>E</span>id-ul-fitr</h2>
+            </div>
+            <div class="nav">
+                <a class="active" href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Gallery</a>
+                <a href="#">news</a>
+            </div>
+            <!-- mobial nav  -->
+
+            <span class="mibial_bar"><i class="fa fa-bars"></i></span>
+            <div class="mobial_nav">
+                <span class="mobial_close"><i class="fa fa-times"></i></span>
+                <div class="burgar">
+                    <a class="active" href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">news</a>
+                </div>
+                <div class="mobial_social">
+                    <ul>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-linkedin"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- mobial nav  -->
+            <div class="social">
+                <ul>
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-twitter"></i></li>
+                    <li><i class="fa fa-linkedin"></i></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="left_side">
+            <h1>Eid modarak <br> <span>2021</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta, perferendis nesciunt doloremque magnam sunt voluptas pariatur praesentium eum, fuga suscipit! Vero possimus similique ex? Lorem ipsum dolor</p>
+            <button type="button">Explore</button>
+        </div>
+        <div class="right_side">
+            <img src="eid-ul-fitor.png" alt="">
+        </div>
+    </section>
+
+    <div class="container">
+        
+        <div class="left">
+            <a href="#"><i class="fa fa-play"></i>Watch videos</a>
+            <a href="#">Donate $ </a>
+        </div>
+
+        <div class="right">
+            <div class="words history">
+                <h3>history</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quos excepturi iusto asperiores? Accusamus itaque tempore suscipit, doloremque inventore velit iure quia voluptate? Quae unde libero explicabo nostrum.</p>
+            </div>
+            <div class="words speciality">
+                <h3>speciality</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, facilis ad. Rerum repudiandae provident molestiae laboriosam error vitae labore aspernatur blanditiis eius maiores laborum impedit ducimus, alias autem!</p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script>
+        var x = document.querySelector(".mibial_bar");
+        var y = document.querySelector(".mobial_close");
+        var z = document.querySelector(".mobial_nav");
+
+        x.addEventListener("click", function(){
+            z.style.display = "block";
+        });
+
+        y.addEventListener("click", function(){
+            z.style.display = "none";
+        });
+
+    </script>
+
+</body>
+</html>

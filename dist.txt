@@ -1,0 +1,4 @@
+Background color: fffbf0
+logo color: #fb4ea7
+button background color: #ff2e4e, #d960ff, #00b3f9
+Font family : 'Rancho', cursive; 'Pippins';
